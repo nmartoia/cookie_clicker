@@ -1,0 +1,63 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    background: url(../img/bgBlue.jpg) repeat;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.imgcookie{
+    width: 30rem;
+}
+.imgcookie:active{
+    margin: 2.5rem;
+    width: 25rem;
+
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.give{
+    background: white;
+    border: 1px black solid;
+}
+.imgshop{
+    max-width: 6rem;
+}
+li{
+    list-style:none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+button{
+    background: none;
+    border: none;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    width: 40rem;
+    background: url(../img/div.png) no-repeat ;
+    background-size: cover  ;
+}
+
+div img{
+    margin: 1rem 2rem;
+}
+h1{
+    color: white;
+}
+p{
+    font-size: 1.6rem;
+    margin: 1rem;
+    color: white;
+}
